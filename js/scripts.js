@@ -7,11 +7,11 @@ $(document).ready(function() {
     var sleepValue = parseInt($("#sleep").val());
     var result = moodValue + lunchValue + sleepValue;
 
-    if (result === ) {
+    if (result >=3 && result <6 ) {
       $('#sloth').show();
       $('#bizCat').hide();
       $('#manBearPig').hide();
-    } else if (result === 6){
+    } else if (result >=6 && result <8){
       $('#bizCat').show();
       $('#sloth').hide();
       $('#manBearPig').hide();
