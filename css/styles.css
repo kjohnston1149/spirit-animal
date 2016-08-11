@@ -1,3 +1,7 @@
+body {
+  background-color: #b3d1ff;
+}
+
 img {
   height: auto;
   width: 400px;
@@ -30,8 +34,18 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
   border:2px solid #f00;
 }
 
-#blanks {
-  align-content: : center;
+label {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/wizard.jpg);
+    background-position: 0% 25%;
+    background-size: auto;
+    background-repeat: repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
 }
 
 #sloth {
