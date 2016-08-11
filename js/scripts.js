@@ -21,6 +21,5 @@ $(document).ready(function() {
       $('#bizCat').hide();
     };
 
-
   });
 });

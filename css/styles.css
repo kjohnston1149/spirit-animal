@@ -1,7 +1,13 @@
+img {
+  height: auto;
+  width: 400px;
+}
+
 img.mood-imgs {
   height: 200px;
   width: 200px;
 }
+
 
 label > input{ /* HIDE RADIO */
   visibility: hidden; /* Makes input not-clickable */
