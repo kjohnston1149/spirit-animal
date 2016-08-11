@@ -14,6 +14,15 @@
       <h1 class="jumbotron">What's your spirit animal?</h1>
       <div id="blanks">
         <form>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-6">
+                <label for="name">Enter your name</label>
+                <input id="name" class="form-control" type="text">
+                <p><span class="error">Please enter your name before submitting.</span></p>
+              </div>
+            </div>
+          </div>
           <label for="radio">Which image best describes your current mood?</label>
           <div class="form-inline">
             <div class="radio">
@@ -35,34 +44,37 @@
               </label>
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-6">
+              <label for="form-control">Someone has stolen your lunch! You respond by:</label>
+              <select class="form-control" id="lunch">
+                <option value="1">Cry</option>
+                <option value="2">Buy new lunch, because you didn't want that lunch anyway.</option>
+                <option value="3"><strong>PUNCH</strong></option>
+              </select>
 
-          <label for="form-control">Someone has stolen your lunch! You respond by:</label>
-          <select class="form-control" id="lunch">
-            <option value="1">Cry</option>
-            <option value="2">Buy new lunch, because you didn't want that lunch anyway.</option>
-            <option value="3"><strong>PUNCH</strong></option>
-          </select>
-
-          <label for="form-control">How much sleep do you like to get per night (on average)?</label>
-          <select class="form-control" id="sleep">
-            <option value="1">20+ hours</option>
-            <option value="2">7-8 hours</option>
-            <option value="3">I'LL SLEEP WHEN I'M DEAD</option>
-          </select>
+              <label for="form-control">How much sleep do you like to get per night (on average)?</label>
+              <select class="form-control" id="sleep">
+                <option value="1">20+ hours</option>
+                <option value="2">7-8 hours</option>
+                <option value="3">I'LL SLEEP WHEN I'M DEAD</option>
+              </select>
+            </div>
+          </div>
 
           <button type="submit" class="btn btn-success">Submit</button>
         </form>
       </div>
       <div id="sloth">
-        <h2>You are a SLOTH!</h2>
+        <h2><span class="name"></span>, you are a SLOTH!</h2>
         <img src="img/sloth.jpg">
       </div>
       <div id="bizCat">
-        <h2>You are a BUSSINESS CAT!</h2>
+        <h2><span class="name"></span>, you are a BUSSINESS CAT!</h2>
         <img src="img/bizCat.jpg">
       </div>
       <div id="manBearPig">
-        <h2>You are a MAN-BEAR-PIG!</h2>
+        <h2><span class="name"></span>, you are a MAN-BEAR-PIG!</h2>
         <img src="img/manBearPig.jpg">
       </div>
     </div>

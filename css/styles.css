@@ -8,6 +8,15 @@ img.mood-imgs {
   width: 200px;
 }
 
+button {
+  margin: 10px;
+}
+
+.error {
+  font-weight: bolder;
+  color: #a94442;
+  display: none;
+}
 
 label > input{ /* HIDE RADIO */
   visibility: hidden; /* Makes input not-clickable */
@@ -19,6 +28,10 @@ label > input + img{ /* IMAGE STYLES */
 }
 label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
   border:2px solid #f00;
+}
+
+#blanks {
+  align-content: : center;
 }
 
 #sloth {
