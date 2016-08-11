@@ -3,12 +3,15 @@ $(document).ready(function() {
       event.preventDefault();
 
     var moodValue = parseInt($("input:radio[name=mood]:checked").val());
+    var lunchValue = parseInt($("#lunch").val());
+    var sleepValue = parseInt($("#sleep").val());
+    var result = moodValue + lunchValue + sleepValue;
 
-    if (moodValue === 1) {
+    if (result === ) {
       $('#sloth').show();
       $('#bizCat').hide();
       $('#manBearPig').hide();
-    } else if (moodValue === 2){
+    } else if (result === 6){
       $('#bizCat').show();
       $('#sloth').hide();
       $('#manBearPig').hide();
