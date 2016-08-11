@@ -5,11 +5,46 @@
     <script src="js/scripts.js"></script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/styles" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>What's your spirit animal?</h1>
+      <form>
+        <label for="radio">Which image best describes your current mood?</label>
+        <div class="form-inline">
+          <div class="radio">
+            <label class="radio control-label">
+              <input type="radio" name="mood" value="1" checked>
+              <img class="mood-imgs" src="img/tired.jpg" alt="Tired Dog">
+            </label>
+          </div>
+          <div class="radio">
+            <label class="radio control-label">
+              <input type="radio" name="mood" value="2">
+              <img class="mood-imgs" src="img/neutral-mood.jpg" alt="Neutral Dog">
+            </label>
+          </div>
+          <div class="radio">
+            <label class="radio control-label">
+              <input type="radio" name="mood" value="3">
+              <img class="mood-imgs" src="img/jumping.gif" alt="Jumping Fox">
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <div id="sloth">
+        <h2>You are a SLOTH!</h2>
+      </div>
+      <div id="bizCat">
+        <h2>You are a BUSSINESS CAT!</h2>
+      </div>
+      <div id="manBearPig">
+        <h2>You are a MAN-BEAR-PIG!</h2>
+      </div>
+    </div>
   </body>
 </html>
